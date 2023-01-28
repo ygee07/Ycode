@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var rotation: Double = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            
+            VStack {
+                Image(systemName: "arrowshape.right.fill")
+                    .imageScale(.large)
+                Text("Hello, world!")
+            }
+            .padding(50)
+            .background(Color.secondary)
+            .rotation3DEffect(Angle(degrees: rotation), axis: (x: 0, y: 1, z: 0))
+            .rotation3DEffect(Angle(degrees: rotation), axis: (x: 0, y: 1, z: 0))
+            
+            
+            Button("Rotate") {
+                withAnimation {
+                    rotation += 180
+                }
+            }
         }
-        .padding()
+
     }
 }
 
