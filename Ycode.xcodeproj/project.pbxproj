@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CA30843E29829CA600AD1095 /* YcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30843D29829CA600AD1095 /* YcodeApp.swift */; };
-		CA30844029829CA600AD1095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30843F29829CA600AD1095 /* ContentView.swift */; };
+		CA30844029829CA600AD1095 /* CardFlip3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30843F29829CA600AD1095 /* CardFlip3DView.swift */; };
 		CA30844229829CA700AD1095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA30844129829CA700AD1095 /* Assets.xcassets */; };
 		CA30844529829CA700AD1095 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA30844429829CA700AD1095 /* Preview Assets.xcassets */; };
+		CACD8E2A298943820089B93B /* CustomButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD8E29298943820089B93B /* CustomButtonStyleView.swift */; };
+		CACD8E2C29894A760089B93B /* CustomTextFieldStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD8E2B29894A760089B93B /* CustomTextFieldStyleView.swift */; };
+		CACD8E2E29894D070089B93B /* RespondToMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD8E2D29894D070089B93B /* RespondToMotionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA30843A29829CA600AD1095 /* Ycode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ycode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA30843D29829CA600AD1095 /* YcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YcodeApp.swift; sourceTree = "<group>"; };
-		CA30843F29829CA600AD1095 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA30843F29829CA600AD1095 /* CardFlip3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlip3DView.swift; sourceTree = "<group>"; };
 		CA30844129829CA700AD1095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA30844429829CA700AD1095 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CACD8E29298943820089B93B /* CustomButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleView.swift; sourceTree = "<group>"; };
+		CACD8E2B29894A760089B93B /* CustomTextFieldStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyleView.swift; sourceTree = "<group>"; };
+		CACD8E2D29894D070089B93B /* RespondToMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondToMotionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,13 @@
 		CA30843C29829CA600AD1095 /* Ycode */ = {
 			isa = PBXGroup;
 			children = (
-				CA30843D29829CA600AD1095 /* YcodeApp.swift */,
-				CA30843F29829CA600AD1095 /* ContentView.swift */,
 				CA30844129829CA700AD1095 /* Assets.xcassets */,
 				CA30844329829CA700AD1095 /* Preview Content */,
+				CA30843D29829CA600AD1095 /* YcodeApp.swift */,
+				CA30843F29829CA600AD1095 /* CardFlip3DView.swift */,
+				CACD8E29298943820089B93B /* CustomButtonStyleView.swift */,
+				CACD8E2B29894A760089B93B /* CustomTextFieldStyleView.swift */,
+				CACD8E2D29894D070089B93B /* RespondToMotionView.swift */,
 			);
 			path = Ycode;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA30844029829CA600AD1095 /* ContentView.swift in Sources */,
+				CACD8E2E29894D070089B93B /* RespondToMotionView.swift in Sources */,
+				CACD8E2A298943820089B93B /* CustomButtonStyleView.swift in Sources */,
+				CA30844029829CA600AD1095 /* CardFlip3DView.swift in Sources */,
+				CACD8E2C29894A760089B93B /* CustomTextFieldStyleView.swift in Sources */,
 				CA30843E29829CA600AD1095 /* YcodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

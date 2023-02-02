@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CardFlip3DView: View {
     @State private var rotation: Double = 0
     
     var body: some View {
@@ -31,11 +31,5 @@ struct ContentView: View {
             }
         }
 
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

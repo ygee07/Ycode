@@ -11,7 +11,8 @@ import SwiftUI
 struct YcodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //TODO: Replace this for each tutorial
+            RespondToMotionView()
         }
     }
 }
